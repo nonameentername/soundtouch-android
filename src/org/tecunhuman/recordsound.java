@@ -94,7 +94,6 @@ public class recordsound extends Activity implements OnSeekBarChangeListener
         mediaPlayer.start();
     }
 
-    @Override
     public void onProgressChanged(SeekBar seekBar, int progress,
             boolean fromUser) {
         if (seekBar.equals(rateBar)) {
@@ -106,11 +105,9 @@ public class recordsound extends Activity implements OnSeekBarChangeListener
         }
     }
 
-    @Override
     public void onStartTrackingTouch(SeekBar seekBar) {        
     }
 
-    @Override
     public void onStopTrackingTouch(SeekBar seekBar) {        
     }
 }
