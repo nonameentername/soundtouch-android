@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">recordsound</string>
+    <string name="record">record</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="play">play</string>
+    <string name="tempo">tempo</string>
+    <string name="pitch">pitch</string>
+    <string name="rate">rate</string>
+</resources>

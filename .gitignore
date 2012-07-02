@@ -1,0 +1,8 @@
+.classpath
+.project
+bin
+gen
+jni/soundtouch/soundtouch/
+libs
+obj
+src/org/tecunhuman/jni/
