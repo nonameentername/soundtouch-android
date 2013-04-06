@@ -20,8 +20,8 @@ LOCAL_SRC_FILES := \
 	soundtouch/source/SoundTouch/RateTransposer.cpp \
 	soundtouch/source/SoundTouch/SoundTouch.cpp \
 	soundtouch/source/SoundTouch/TDStretch.cpp \
-	soundtouch/source/SoundTouch/cpu_detect_x86_gcc.cpp \
+	soundtouch/source/SoundTouch/cpu_detect_x86.cpp \
 	soundtouch/source/SoundTouch/mmx_optimized.cpp \
-	soundtouch/source/SoundTouch/sse_optimized.cpp
+	soundtouch/source/SoundTouch/sse_optimized.cpp \
 
 include $(BUILD_SHARED_LIBRARY)

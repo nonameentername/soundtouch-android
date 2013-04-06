@@ -1,0 +1,3 @@
+[submodule "jni/soundtouch/soundtouch"]
+	path = jni/soundtouch/soundtouch
+	url = git@github.com:nonameentername/soundtouch.git

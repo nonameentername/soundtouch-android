@@ -1,0 +1,14 @@
+How to build:
+    sudo apt-get install swig
+
+    git submodule init
+    git submodule update
+
+    cd jni/soundtouch/soundtouch
+    mkdir -p config/m4
+    ./bootstrap
+    ./configure
+
+    cd -
+    ndk-build
+    ant debug
